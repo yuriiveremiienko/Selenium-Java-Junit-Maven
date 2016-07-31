@@ -11,9 +11,9 @@ import pageObjects.PrivateAccomodationPage;
 
 import java.util.concurrent.TimeUnit;
 
-public class HomepageSearchSpec {
+public class HomepageSearchTest {
 
-    private static final Logger log = Logger.getLogger(HomepageSearchSpec.class);
+    private static final Logger log = Logger.getLogger(HomepageSearchTest.class);
 
     static WebDriver driver = Config.driver;
     static Homepage homepage = null;

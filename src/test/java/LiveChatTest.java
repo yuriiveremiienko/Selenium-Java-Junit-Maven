@@ -8,9 +8,9 @@ import pageObjects.LiveChatPopup;
 
 import java.util.concurrent.TimeUnit;
 
-public class LiveChatSpec {
+public class LiveChatTest {
 
-    private static final Logger log = Logger.getLogger(HomepageSearchSpec.class);
+    private static final Logger log = Logger.getLogger(HomepageSearchTest.class);
 
     static WebDriver driver = Config.driver;
     static Homepage homepage = null;
