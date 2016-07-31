@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964721b6-4c01-4dd8-82a9-4902e9756939" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HomepageSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/HomepageSearchTest.java" />
     </list>
     <ignored path="Selenium-Java-Junit-Maven.iws" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="HomepageSearchTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HomepageSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <state relative-caret-position="449">
+              <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -746,7 +745,7 @@
       <option name="presentableId" value="Default" />
       <updated>1469968358965</updated>
       <workItem from="1469968361968" duration="2128000" />
-      <workItem from="1469977934889" duration="327000" />
+      <workItem from="1469977934889" duration="426000" />
     </task>
     <servers />
   </component>
@@ -762,7 +761,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2455000" />
+    <option name="totallyTimeSpent" value="2554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
@@ -869,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HomepageSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        <state relative-caret-position="449">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
           <folding />
         </state>
       </provider>
