@@ -8,7 +8,7 @@ public class Config {
 
     public static String baseUrl = "http://www.adriatic.hr/";
 
-    public static WebDriver driver = new FirefoxDriver();
+//    public static WebDriver driver = new FirefoxDriver();
 
 
 

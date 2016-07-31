@@ -15,7 +15,7 @@ public class HomepageSearchTest {
 
     private static final Logger log = Logger.getLogger(HomepageSearchTest.class);
 
-    static WebDriver driver = Config.driver;
+    static WebDriver driver = null;
     static Homepage homepage = null;
     static HotelsPage hotelsPage = null;
     static PrivateAccomodationPage privatePage = null;
@@ -23,6 +23,7 @@ public class HomepageSearchTest {
     @BeforeClass
     public static void beforeAll() {
         log.info("Running spec: HomepageSearchSpec");
+        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         homepage = new Homepage(driver);
