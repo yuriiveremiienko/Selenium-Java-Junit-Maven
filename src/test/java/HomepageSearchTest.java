@@ -170,7 +170,7 @@ public class HomepageSearchTest {
 
         int res = hotelsPage.HotelSearchResults.size();
         log.info("Search results equals " + res);
-        Assert.assertTrue("Search results equals " + res + ", should be equal to 0", res == 0);
+        Assert.assertTrue("Search results equals " + res + ", should be more than 0", res > 0);
     }
 
 
