@@ -1,12 +1,14 @@
 import config.*;
 import org.apache.log4j.Logger;
 import org.junit.*;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pageObjects.Homepage;
 import pageObjects.LiveChatPopup;
 
 import java.util.concurrent.TimeUnit;
+
 
 public class LiveChatTest {
 
