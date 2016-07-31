@@ -71,7 +71,7 @@ public class HomepageSearchTest {
         homepage.SearchButton.click();
 
         int res = hotelsPage.HotelSearchResults.size();
-        log.info("Search results equals " + res);
+        log.info("Search results equals " + res + "\n");
         Assert.assertTrue("Search results equals " + res + ", should be more than 1", res > 1);
     }
 
@@ -91,7 +91,7 @@ public class HomepageSearchTest {
         homepage.SearchButton.click();
 
         int res = privatePage.PrivateAccomodationSearchResults.size();
-        log.info("Search results equals " + res);
+        log.info("Search results equals " + res + "\n");
         Assert.assertTrue("Search results equals " + res + ", should be more than 1", res > 1);
     }
 
@@ -117,7 +117,7 @@ public class HomepageSearchTest {
         homepage.SearchButton.click();
 
         int res = hotelsPage.HotelSearchResults.size();
-        log.info("Search results equals " + res);
+        log.info("Search results equals " + res + "\n");
         Assert.assertTrue("Search results equals " + res + ", should be more than 1", res > 1);
     }
 
@@ -143,7 +143,7 @@ public class HomepageSearchTest {
         homepage.SearchButton.click();
 
         int res = hotelsPage.HotelSearchResults.size();
-        log.info("Search results equals " + res);
+        log.info("Search results equals " + res + "\n");
         Assert.assertTrue("Search results equals " + res + ", should be more than 1", res > 1);
     }
 
@@ -169,7 +169,7 @@ public class HomepageSearchTest {
         homepage.SearchButton.click();
 
         int res = hotelsPage.HotelSearchResults.size();
-        log.info("Search results equals " + res);
+        log.info("Search results equals " + res + "\n");
         Assert.assertTrue("Search results equals " + res + ", should be more than 0", res >= 0);
     }
 

@@ -73,7 +73,7 @@ public class LiveChatTest {
         liveChat.LiveChatSendButton.click();
 
         String ErrorMessage = liveChat.LiveChatErrorMessage.getText();
-        log.info("Message: " + ErrorMessage);
+        log.info("Message: " + ErrorMessage + "\n");
         Assert.assertEquals("Please fill \"Your email\" correctly.", ErrorMessage);
 
     }
